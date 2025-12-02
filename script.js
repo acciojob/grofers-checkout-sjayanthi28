@@ -17,8 +17,9 @@ const getSum = () => {
     const labelcell = document.createElement("td");
     const totalcell = document.createElement("td");
 
-    totalcell.textContent = "total";
-    labelcell.textContent = "Total Price";
+    totalcell.textContent = total;
+    labelcell.textContent = "Total Price:";
+	newRow.id= 'ans'
 
     newRow.append(labelcell, totalcell);
     table.append(newRow);
